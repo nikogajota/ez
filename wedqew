@@ -1,0 +1,53 @@
+_G.teleportDuringBossOnly = true -- if true, only use smallTeleports when its time for a boss
+_G.doInstakill = true
+-- AI Visual Settings
+_G.showTarget = false -- this will highlight each target in a red box
+_G.showPath = false
+-- AI Performance
+_G.extremelyFast = false -- makes the ai think exponentially faster, but might lag for peopel
+-- Lobby Settings
+_G.maxWaitTimeInLobby = 0 -- this is how long itll randomly walk around for before going into a dungeon 
+_G.collect_daily_reward = true
+ 
+-- Dungeon Choosing Settings
+-- Normal Dungeon Settings
+_G.auto_join_dungeon = true
+_G.dungeon = "Orbital Outpost"
+_G.difficulty = "Nightmare"
+_G.hardcore = true
+_G.auto_choose_dungeon_and_difficulty = true
+_G.autoexec_wait_time_secs = 0
+
+-- Boss Raid Settings
+_G.boss_raid = false
+_G.auto_choose_raid_boss_tier = true
+_G.boss_raid_tier = 1
+ 
+-- Wave Defense Settings
+_G.wavedefense = false
+ 
+
+ 
+-- ANTI LAG SETTINGS
+_G.wall_transparency = .100
+_G.optimize_mobs = true
+_G.destroy_map = true
+_G.del_armor= true
+_G.del_weapon = true
+_G.hide_projectiles = true
+_G.loadSlow = false
+_G.fpsBoost = true
+ 
+-- UI Settings
+_G.edit_ui = true
+_G.UI_portait_image = 'rbxassetid://3157197640'
+_G.UI_health = "Peanut"
+_G.UI_money = "Peanut"
+_G.UI_name = "Peanut Quest"
+_G.UI_xp = "66"
+_G.UI_lvl = "33"
+ 
+-- Discord Webhook
+_G.webhookEnabled = true
+_G.webhookLink = "https://IMK3cHUBsugf1FvNjdtZQXb7TddIuYgCL9j-qg0az8G34ILR2E"
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/PeanutQuest/PeanutQuestBeta/main/Release.lua'),true))()
